@@ -1,4 +1,4 @@
-<?php namespace browner12\helpers;
+<?php namespace neverbehave\helpers;
 
 use Illuminate\Support\ServiceProvider;
 

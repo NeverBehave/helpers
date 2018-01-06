@@ -1,4 +1,4 @@
-<?php namespace browner12\helpers\Commands;
+<?php namespace neverbehave\helpers\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

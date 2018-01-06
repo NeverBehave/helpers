@@ -7,7 +7,7 @@ This is a helpers package that provides some built in helpers, and also provides
 Via Composer
 
 ``` bash
-$ composer require browner12/helpers
+$ composer require neverbehave/helpers
 ```
 
 ## Setup
@@ -15,7 +15,7 @@ $ composer require browner12/helpers
 Add the service provider to the providers array in `bootstrap/app.php`.
 
 ``` php
-$app->register(browner12\helpers\HelperServiceProvider::class);
+$app->register(neverbehave\helpers\HelperServiceProvider::class);
 ```
 
 If you are using Laravel's automatic package discovery, you can skip this step.
@@ -25,13 +25,13 @@ If you are using Laravel's automatic package discovery, you can skip this step.
 You can publish everything at once
 
 ``` php
-php artisan vendor:publish --provider="browner12\helpers\HelperServiceProvider"
+php artisan vendor:publish --provider="neverbehave\helpers\HelperServiceProvider"
 ```
 
 or you can publish groups individually.
 
 ``` php
-php artisan vendor:publish --provider="browner12\helpers\HelperServiceProvider" --tag="config"
+php artisan vendor:publish --provider="neverbehave\helpers\HelperServiceProvider" --tag="config"
 ```
 
 ## Usage
