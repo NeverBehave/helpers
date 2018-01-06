@@ -1,17 +1,18 @@
 {
-    "name": "browner12/helpers",
+    "name": "NeverBehave/lumen-helpers",
     "type": "library",
-    "description": "generic helpers",
+    "description": "generic helpers for Lumen",
     "keywords": [
-        "browner12",
-        "helpers"
+        "NeverBehave",
+        "helpers",
+        "Lumen"
     ],
-    "homepage": "https://github.com/browner12/helpers",
+    "homepage": "https://github.com/NeverBehave/lumen-helpers",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andrew Brown",
-            "email": "browner12@gmail.com",
+            "name": "NeverBehave",
+            "email": "i@never.pet",
             "role": "Developer"
         }
     ],
