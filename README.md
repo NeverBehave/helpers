@@ -1,12 +1,5 @@
 # Helpers
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
-
 This is a helpers package that provides some built in helpers, and also provides an Artisan generator to quickly create your own custom helpers.
 
 ## Install
@@ -19,12 +12,10 @@ $ composer require browner12/helpers
 
 ## Setup
 
-Add the service provider to the providers array in `config/app.php`.
+Add the service provider to the providers array in `bootstrap/app.php`.
 
 ``` php
-'providers' => [
-    browner12\helpers\HelperServiceProvider::class,
-];
+$app->register(browner12\helpers\HelperServiceProvider::class);
 ```
 
 If you are using Laravel's automatic package discovery, you can skip this step.
