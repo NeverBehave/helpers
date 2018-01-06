@@ -31,7 +31,7 @@ class HelperServiceProvider extends ServiceProvider
 
             foreach (config('helpers.custom_helpers', []) as $customHelper) {
 
-                $file = app_path() . '/' . $this->getHelpersDirectory() . '/' . $customHelper . '.php';
+                $file = app()->path() . '/' . $this->getHelpersDirectory() . '/' . $customHelper . '.php';
 
                 if(file_exists($file)) {
                     require_once($file);
@@ -43,7 +43,7 @@ class HelperServiceProvider extends ServiceProvider
         else {
 
             //include the custom helpers
-            foreach (glob(app_path() . '/' . $this->getHelpersDirectory() . '/*.php') as $file) {
+            foreach (glob(app()->path() . '/' . $this->getHelpersDirectory() . '/*.php') as $file) {
                 require_once($file);
             }
         }
@@ -58,7 +58,7 @@ class HelperServiceProvider extends ServiceProvider
     {
         //publish configuration
         $this->publishes([
-            __DIR__ . '/config/helpers.php' => config_path('helpers.php'),
+            __DIR__ . '/config/helpers.php' => $this->config_path('helpers.php'),
         ], 'config');
     }
 
@@ -70,5 +70,16 @@ class HelperServiceProvider extends ServiceProvider
     public function getHelpersDirectory()
     {
         return config('helpers.directory', 'Helpers');
+    }
+    
+    /**
+     * Get the configuration path.
+     *
+     * @param  string $path
+     * @return string
+     */
+    function config_path($path = '')
+    {
+        return app()->basePath() . '/config' . ($path ? '/' . $path : $path);
     }
 }
