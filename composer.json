@@ -1,5 +1,5 @@
 {
-    "name": "NeverBehave/lumen-helpers",
+    "name": "neverbehave/lumen-helpers",
     "type": "library",
     "description": "generic helpers for Lumen",
     "keywords": [
@@ -11,7 +11,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "NeverBehave",
+            "name": "neverbehave",
             "email": "i@never.pet",
             "role": "Developer"
         }
