@@ -1,6 +1,6 @@
 # Helpers
 
-This is a helpers package that provides some built in helpers, and also provides an Artisan generator to quickly create your own custom helpers.
+This is a helpers package that provides some built in helpers, and also provides an Artisan generator (while lumen somehow won't provided in default?) to quickly create your own custom helpers.
 
 ## Install
 
@@ -91,17 +91,17 @@ If you discover any security related issues, please email browner12@gmail.com in
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/browner12/helpers.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/neverbehave/lumen-helpers.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/browner12/helpers/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/browner12/helpers.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/browner12/helpers.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/browner12/helpers.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/neverbehave/lumen-helpers/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/neverbehave/lumen-helpers.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/neverbehave/lumen-helpers.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/neverbehave/lumen-helpers.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/browner12/helpers
-[link-travis]: https://travis-ci.org/browner12/helpers
-[link-scrutinizer]: https://scrutinizer-ci.com/g/browner12/helpers/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/browner12/helpers
-[link-downloads]: https://packagist.org/packages/browner12/helpers
+[link-packagist]: https://packagist.org/packages/neverbehave/lumen-helpers
+[link-travis]: https://travis-ci.org/neverbehave/lumen-helpers
+[link-scrutinizer]: https://scrutinizer-ci.com/g/neverbehave/lumen-helpers/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/neverbehave/lumen-helpers
+[link-downloads]: https://packagist.org/packages/neverbehave/lumen-helpers
 [link-author]: https://github.com/browner12
 [link-contributors]: ../../contributors
